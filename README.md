@@ -1,8 +1,7 @@
 # Cdiscount-SAE5-6
 
 #Groupe numéro : 10
-Personne du groupe:
-                    - Lucas Da Silveira (référent) email: lucas.da_silveira@edu.univ-fcomte.fr
-                    - Tom Siouan
-                    - Johan Lançon
-                    - Mathys Nourry
+Etudiant 1 (référent du groupe) : Lucas Da Silveira (email: lucas.da_silveira@edu.univ-fcomte.fr)
+Etudiant 2 : Tom Siouan (email : tom.siouan@edu.univ-fcomte.fr)
+Etudiant 3 : Johan Lançon (email : johan.lancon@edu.univ-fcomte.fr)
+Etudiant 4 : Mathys Nourry (email : mathys.nourry@edu.univ-fcomte.fr)
