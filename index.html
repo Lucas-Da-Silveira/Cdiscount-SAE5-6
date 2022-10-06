@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>SAE Cdiscount</title>
-</head>
-<body>
-    <h1>Projet Cdiscount</h1>
-    <p>Ce site aura pour but de présenter l'entreprise française Cdiscount sur les aspects historiques, économiques, structurelles et les services vendus pour notre projet de SAE5-6</p>
-    
-</body>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="src/css/style.css">
+        <title>Cdiscount - Accueil</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class="head-container">
+            <nav class="navbar">
+                <a href="https://www.cdiscount.com/" target="_blank"><img id="logo" src="src/img/cdiscount.png" alt="logo cdiscount"></a>
+
+                <ul class="navbar-links">
+                    <li class="navbar-item active"><a href="#">Accueil</a></li>
+                    <li class="navbar-item"><a href="#">Histoire</a></li>
+                    <li class="navbar-item"><a href="#">Structure</a></li>
+                    <li class="navbar-item"><a href="#">Economie</a></li>
+                    <li class="navbar-item"><a href="#">Services</a></li>
+                </ul>
+            </nav>
+            <video id="background-video" autoplay loop muted>
+                <source src="src/img/VideoBackground.mov" type="video/mp4" alt="video cdiscount">
+            </video>
+            
+        </div>
+        
+
+
+        <!--<div class="line-chart-container">
+            <div class="line">
+                <canvas id="lineCanvas" aria-label="chart" role="img"></canvas>
+            </div>
+        </div>
+        <br> <br> <br>
+        <div class="pie-chart-container">
+            <div class="pie">
+                <canvas id="pieCanvas" aria-label="chart" role="img"></canvas>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="src/js/scriptLine.js"></script>
+        <script src="src/js/scriptPie.js"></script>-->
+    </body>
 </html>
