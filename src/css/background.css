@@ -54,6 +54,20 @@ body {
     }
 }
 
+@media screen and (max-width: 2000px) {
+
+    .displayable5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    .displayable4 {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1080px) {
 
     .displayable3 {
