@@ -12,4 +12,4 @@ Etudiant 3 : Johan Lançon (email : johan.lancon@edu.univ-fcomte.fr)
 Etudiant 4 : Mathys Nourry (email : mathys.nourry@edu.univ-fcomte.fr)
 
 ## Zoning général
-![Wireframe](./Wireframe/Wireframe générale.png)
+![Alt text](relative/path/to/img.png?raw=true "wireframe générale")
