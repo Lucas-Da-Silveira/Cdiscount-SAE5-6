@@ -13,6 +13,4 @@ Etudiant 4 : Mathys Nourry (email : mathys.nourry@edu.univ-fcomte.fr)
 
 ## Zoning général
 <p align="center"> 
-  <img src="/Wireframe/Wireframe_générale" width="350" title="hover text">  </p>
-
-Source: https://prograide.com/pregunta/2181/comment-ajouter-des-images-au-fichier-readmemd-sur-github
+  <img src="./Wireframe/Wireframe_générale" title="Wireframe général">  </p>
