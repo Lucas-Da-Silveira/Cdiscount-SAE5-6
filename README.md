@@ -14,3 +14,7 @@ Etudiant 4 : Mathys Nourry (email : mathys.nourry@edu.univ-fcomte.fr)
 ## Zoning général
 <p align="center"> 
   <img src="Wireframe/Wireframe générale.png" title="Wireframe général">  </p>
+
+## Exemple page type
+<p align="center"> 
+  <img src="Wireframe/Page_type.png" title="Page Type">  </p>
