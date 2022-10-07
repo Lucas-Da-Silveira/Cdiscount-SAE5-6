@@ -12,4 +12,7 @@ Etudiant 3 : Johan Lançon (email : johan.lancon@edu.univ-fcomte.fr)
 Etudiant 4 : Mathys Nourry (email : mathys.nourry@edu.univ-fcomte.fr)
 
 ## Zoning général
-![Alt text](relative/path/to/img.png?raw=true "wireframe générale")
+<p align="center"> 
+  <img src="/Wireframe/Wireframe_générale" width="350" title="hover text">  </p>
+
+Source: https://prograide.com/pregunta/2181/comment-ajouter-des-images-au-fichier-readmemd-sur-github
