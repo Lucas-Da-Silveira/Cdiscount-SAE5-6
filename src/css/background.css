@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #0c192c;
+}
+
+.background-container {
+    height: 1px;
+}
+
+.all {
+    position: relative;
+    overflow: hidden;
+}
+
+.bubbles {
+    position: relative;
+    display: flex;
+}
+
+.bubbles span {
+    position: relatives;
+    width: 30px;
+    height:30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animateBubbles 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+.bubbles span:nth-child(even)
+{
+    background: #fe7500;
+    box-shadow: 0 0 0 10px #c0570180,
+    0 0 50px #fe7500,
+    0 0 100px #fe7500;
+}
+
+@keyframes animateBubbles
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0.2);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .displayable3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .displayable2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .displayable1 {
+        display: none;
+    }
+}
