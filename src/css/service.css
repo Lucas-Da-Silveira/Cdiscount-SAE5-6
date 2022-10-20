@@ -1,0 +1,543 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+
+   
+    
+}
+
+
+body{
+    background-image: linear-gradient(to right top, #0d1321, #0d1321, #0d1321, #0d1321, #393c41);
+      background-repeat:no-repeat;
+    height:100vh;
+    }
+
+.fade-in {
+    -webkit-animation-name: fadeInOpacity;
+            animation-name: fadeInOpacity;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+  
+  @-webkit-keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    
+}
+
+    
+
+.background {
+    color: #F0EBD8;
+    
+  
+
+}
+    
+
+
+/* NAVBAR 
+
+nav{
+    width: 55%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 8px;
+    position: fixed;
+    
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(189, 182, 182, 0.5);
+    border-radius: 17px;
+   
+}
+
+#logo{
+    width: 175px;
+    vertical-align: middle;
+    transition: transform 0.7s ease-in-out;
+}
+
+#logo:hover{
+    transform: rotate(360deg);
+}
+
+.navbar-links{
+    display: flex;
+    list-style-type: none;
+    margin: 13px 0px;
+}
+
+.navbar-item a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(36,52,68);
+    padding: 0px 8px;
+    font-size: 21px;
+    transition: 0.3s;
+}
+
+.navbar-item:hover a{
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.navbar-item.active a{
+    color: white;
+}
+
+NAVBAR FIN*/
+
+
+
+
+
+
+
+.services {
+    margin: auto;
+    scroll-behavior: smooth;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    
+    
+    top: 10px;
+    
+
+}
+
+.imgsrvc {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+    scroll-behavior: smooth;
+    position: relative;
+    
+    top: 170px;
+    right: -70px;
+    
+   
+}
+    
+    
+
+
+
+
+.livraison {
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+    
+    position: relative;
+    top: 50px;
+    right: -350px;
+
+
+    
+   
+    
+    
+    
+
+  
+    
+   
+}
+
+.enp1 {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
+    top: 55px;
+    left: 145px;
+    -webkit-transition: all 0.2s ease; /* Safari et Chrome */
+-moz-transition: all 0.2s ease; /* Firefox */
+-ms-transition: all 0.2s ease; /* Internet Explorer 9 */
+-o-transition: all 0.2s ease; /* Opera */
+transition: all 0.2s ease;
+}
+.enp1:hover {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.002); /* Safari et Chrome */
+-moz-transform:scale(1.002); /* Firefox */
+-ms-transform:scale(1.002); /* Internet Explorer 9 */
+-o-transform:scale(1.002); /* Opera */
+transform:scale(1.003);
+}
+
+
+
+
+
+.imgvoyage {
+    
+    scroll-behavior: smooth;
+    position: relative;
+    left: 1157px;
+    top: 30px;
+   
+
+}
+
+.voyages {
+    scroll-behavior: smooth;
+    position: relative;
+    left: 802px;
+    bottom: 75px;
+}
+.enp2 {
+    position: relative;
+
+    top: -10px;
+    left: 1202px;
+    -webkit-transition: all 0.2s ease; /* Safari et Chrome */
+-moz-transition: all 0.2s ease; /* Firefox */
+-ms-transition: all 0.2s ease; /* Internet Explorer 9 */
+-o-transition: all 0.2s ease; /* Opera */
+transition: all 0.2s ease;
+}
+.enp2:hover {
+
+-webkit-transform:scale(1.002); /* Safari et Chrome */
+-moz-transform:scale(1.002); /* Firefox */
+-ms-transform:scale(1.002); /* Internet Explorer 9 */
+-o-transform:scale(1.002); /* Opera */
+transform:scale(1.003);
+}
+
+.imgtelephone {
+    
+    scroll-behavior: smooth;
+    position: relative;
+    left: 90px;
+    top: -20px;
+   
+
+}
+
+.telephone {
+    scroll-behavior: smooth;
+    position: relative;
+    left: 370px;
+    bottom: 115px;
+}
+.enp3 {
+    position: relative;
+
+    top: -63px;
+    left: 145px;
+    -webkit-transition: all 0.2s ease; /* Safari et Chrome */
+-moz-transition: all 0.2s ease; /* Firefox */
+-ms-transition: all 0.2s ease; /* Internet Explorer 9 */
+-o-transition: all 0.2s ease; /* Opera */
+transition: all 0.2s ease;
+}
+.enp3:hover {
+
+-webkit-transform:scale(1.002); /* Safari et Chrome */
+-moz-transform:scale(1.002); /* Firefox */
+-ms-transform:scale(1.002); /* Internet Explorer 9 */
+-o-transform:scale(1.002); /* Opera */
+transform:scale(1.003);
+}
+
+.imgcuisine {
+
+    scroll-behavior: smooth;
+    position: relative;
+    left: 1170px;
+    top: -40px;
+
+
+
+}
+
+.cuisine {
+
+    scroll-behavior: smooth;
+    position: relative;
+    left: 804px;
+    bottom: 145px;
+
+}
+
+
+
+
+
+.enp4 {
+    position: relative;
+
+    top: -100px;
+    left: 1234px;
+    -webkit-transition: all 0.2s ease; /* Safari et Chrome */
+-moz-transition: all 0.2s ease; /* Firefox */
+-ms-transition: all 0.2s ease; /* Internet Explorer 9 */
+-o-transition: all 0.2s ease; /* Opera */
+transition: all 0.2s ease;
+}
+.enp4:hover {
+
+-webkit-transform:scale(1.002); /* Safari et Chrome */
+-moz-transform:scale(1.002); /* Firefox */
+-ms-transform:scale(1.002); /* Internet Explorer 9 */
+-o-transform:scale(1.002); /* Opera */
+transform:scale(1.003);
+}
+
+.imgcarte {
+
+    scroll-behavior: smooth;
+    position: relative;
+    left: 100px;
+    top: -90px;
+
+}
+
+.carte {
+    scroll-behavior: smooth;
+    position: relative;
+    left: 400px;
+    bottom: 230px;
+}
+
+.enp5 {
+    position: relative;
+
+    top: -225px;
+    right: -170px;
+    -webkit-transition: all 0.2s ease; /* Safari et Chrome */
+-moz-transition: all 0.2s ease; /* Firefox */
+-ms-transition: all 0.2s ease; /* Internet Explorer 9 */
+-o-transition: all 0.2s ease; /* Opera */
+transition: all 0.2s ease;
+}
+.enp5:hover {
+
+-webkit-transform:scale(1.002); /* Safari et Chrome */
+-moz-transform:scale(1.002); /* Firefox */
+-ms-transform:scale(1.002); /* Internet Explorer 9 */
+-o-transform:scale(1.002); /* Opera */
+transform:scale(1.003);
+}
+
+.background  {
+    
+}
+
+.produit {
+   
+    justify-content: left;
+    margin-left: 70px;
+    
+}
+
+.imgproduit {
+    justify-content: left;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    
+}
+
+.argent {
+    position: relative;
+    justify-content: center;
+    bottom: 220px;
+    margin-left: 605px;
+
+}
+.imgargent {
+    position: relative;
+    margin-left: 660px;
+    bottom: 240px;
+    
+
+}
+
+.marketplace {
+    position: relative;
+    left: 1170px;
+    bottom: 446px;
+
+}
+
+.imgmarketplace {
+    position: relative;
+    left: 1239px;
+    bottom: 460px;
+
+}
+
+
+
+
+
+.bord1 {
+    position:relative;
+    bottom: 100px;
+    left: 88px;
+}
+
+.servtxt {
+    margin: auto;
+    scroll-behavior: smooth;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    
+
+}
+
+.textproduit {
+    margin: auto;
+    scroll-behavior: smooth;
+    text-align: center;
+    position: relative;
+    top: -80px;
+
+
+}
+
+footer{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.bord2 {
+    position: relative;
+    top: 12px;
+    right: 3px;
+}
+
+.participant {
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+   
+
+    
+
+
+ 
