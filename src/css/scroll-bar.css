@@ -9,3 +9,27 @@
 ::-webkit-scrollbar-track {
     background: #F0EBD8;
 }
+
+::-moz-scrollbar {
+    width: 20px;
+}
+
+::-moz-scrollbar-thumb {
+    background: #748CAB;
+}
+
+::-moz-scrollbar-track {
+    background: #F0EBD8;
+}
+
+::-ms-scrollbar {
+    width: 20px;
+}
+
+::-ms-scrollbar-thumb {
+    background: #748CAB;
+}
+
+::-ms-scrollbar-track {
+    background: #F0EBD8;
+}
