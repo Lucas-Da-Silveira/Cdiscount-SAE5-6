@@ -71,14 +71,17 @@ body, html {
 
 }
     
+.imgsrvc {
+    position:relative;
+    justify-items: right;
+}
 
 
 
 
 
 
-
-.services {
+.services { 
     margin: auto;
     scroll-behavior: smooth;
     position: relative;
@@ -101,7 +104,9 @@ body, html {
     position: relative;
     
     top: 170px;
-    right: -70px;
+    text-align:left;
+    padding-left: 8px;
+    
     
    
 }
@@ -112,14 +117,15 @@ body, html {
 
 
 .livraison {
-    margin-right: auto;
-    margin-left: auto;
+    
+    
     
     
     
     position: relative;
     top: 50px;
-    right: -350px;
+    text-align:left;
+    padding-left: 300px;
 
 
     
@@ -139,7 +145,8 @@ body, html {
     margin-left: auto;
 
     top: 55px;
-    left: 145px;
+    text-align:left;
+    padding-left: 80px;
     -webkit-transition: all 0.2s ease; /* Safari et Chrome */
 -moz-transition: all 0.2s ease; /* Firefox */
 -ms-transition: all 0.2s ease; /* Internet Explorer 9 */
@@ -163,8 +170,10 @@ transform:scale(1.003);
     
     scroll-behavior: smooth;
     position: relative;
-    left: 1157px;
-    top: 30px;
+    text-align: right;
+    
+    top: 40px;
+    
    
 
 }
@@ -172,14 +181,18 @@ transform:scale(1.003);
 .voyages {
     scroll-behavior: smooth;
     position: relative;
-    left: 802px;
-    bottom: 75px;
+    text-align: right;
+  
+    bottom: 45px;
+    padding-right: 300px;
 }
 .enp2 {
     position: relative;
+    padding-right: 100px;
 
-    top: -10px;
-    left: 1202px;
+    top: -5px;
+    
+    text-align: right;
     -webkit-transition: all 0.2s ease; /* Safari et Chrome */
 -moz-transition: all 0.2s ease; /* Firefox */
 -ms-transition: all 0.2s ease; /* Internet Explorer 9 */
@@ -199,8 +212,9 @@ transform:scale(1.003);
     
     scroll-behavior: smooth;
     position: relative;
-    left: 90px;
+    text-align:left;
     top: -20px;
+    padding-left: 30px;
    
 
 }
@@ -208,14 +222,17 @@ transform:scale(1.003);
 .telephone {
     scroll-behavior: smooth;
     position: relative;
-    left: 370px;
+    text-align:left;
     bottom: 115px;
+    padding-left: 300px;
+    
 }
 .enp3 {
     position: relative;
 
     top: -63px;
-    left: 145px;
+    text-align:left;
+    padding-left: 80px;
     -webkit-transition: all 0.2s ease; /* Safari et Chrome */
 -moz-transition: all 0.2s ease; /* Firefox */
 -ms-transition: all 0.2s ease; /* Internet Explorer 9 */
@@ -235,7 +252,9 @@ transform:scale(1.003);
 
     scroll-behavior: smooth;
     position: relative;
-    left: 1170px;
+   
+    text-align: right;
+    padding-right: 15px;
     top: -40px;
 
 
@@ -246,8 +265,10 @@ transform:scale(1.003);
 
     scroll-behavior: smooth;
     position: relative;
-    left: 804px;
+   
+    text-align: right;
     bottom: 145px;
+    padding-right: 300px;
 
 }
 
@@ -259,7 +280,9 @@ transform:scale(1.003);
     position: relative;
 
     top: -100px;
-    left: 1234px;
+  
+    text-align: right;
+    padding-right: 80px;
     -webkit-transition: all 0.2s ease; /* Safari et Chrome */
 -moz-transition: all 0.2s ease; /* Firefox */
 -ms-transition: all 0.2s ease; /* Internet Explorer 9 */
@@ -279,23 +302,28 @@ transform:scale(1.003);
 
     scroll-behavior: smooth;
     position: relative;
-    left: 100px;
+    text-align:left;
     top: -90px;
+    padding-left: 30px;
+    
 
 }
 
 .carte {
     scroll-behavior: smooth;
     position: relative;
-    left: 400px;
+    text-align:left;
     bottom: 230px;
+    padding-left: 300px;
+    
 }
 
 .enp5 {
     position: relative;
 
     top: -225px;
-    right: -170px;
+    text-align:left;
+    padding-left: 100px;
     -webkit-transition: all 0.2s ease; /* Safari et Chrome */
 -moz-transition: all 0.2s ease; /* Firefox */
 -ms-transition: all 0.2s ease; /* Internet Explorer 9 */
@@ -317,13 +345,13 @@ transform:scale(1.003);
 
 .produit {
    
-    justify-content: left;
+    text-align: left;
     margin-left: 70px;
     
 }
 
 .imgproduit {
-    justify-content: left;
+    text-align: left;
     margin-left: 90px;
     margin-bottom: 20px;
     
@@ -333,12 +361,12 @@ transform:scale(1.003);
     position: relative;
     justify-content: center;
     bottom: 220px;
-    margin-left: 605px;
+    text-align: center;
 
 }
 .imgargent {
     position: relative;
-    margin-left: 660px;
+    text-align: center;
     bottom: 240px;
     
 
@@ -346,14 +374,16 @@ transform:scale(1.003);
 
 .marketplace {
     position: relative;
-    left: 1170px;
-    bottom: 446px;
+    text-align: right;
+    padding-right: 100px;
+    bottom: 456px;
 
 }
 
 .imgmarketplace {
     position: relative;
-    left: 1239px;
+    text-align: right;
+    padding-right: 100px;
     bottom: 460px;
 
 }
@@ -365,7 +395,7 @@ transform:scale(1.003);
 .bord1 {
     position:relative;
     bottom: 100px;
-    left: 88px;
+    text-align: center;
 }
 
 .servtxt {
