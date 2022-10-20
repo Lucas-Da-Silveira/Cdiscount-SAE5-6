@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+footer{
+    color: white;
+}
+
 body{
     background-color: #0d1321;
     animation: fadeInAnimation ease 3s;
