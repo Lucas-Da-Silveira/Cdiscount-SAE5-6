@@ -27,7 +27,7 @@ Etudiant 4 : Mathys Nourry (email : mathys.nourry@edu.univ-fcomte.fr)
 
 
 
-##Répartition des tâches
+## Répartition des tâches
 
 Lucas Da Silveira : Création du diagramme de GANTT, du zoning général, du questionnaire 2, de la page structure, de la partie structure dans le rapport économique , remplissage du readme et aide à la mise en page du rapport.
 
