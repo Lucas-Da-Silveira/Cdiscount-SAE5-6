@@ -64,6 +64,7 @@ body {
 
 .date-bar {
     color: black;
+    font-family: 'Arial', sans-serif;
     background-color: white;
     border-radius: 10px;
     font-size: 1.5em;
