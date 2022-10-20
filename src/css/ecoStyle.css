@@ -67,7 +67,6 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
 }
 
 .info-text1{
@@ -87,7 +86,7 @@ body{
     margin: auto;
     font-size: 34px;
     font-weight: bold;
-    margin-top: 60px;
+    padding-top: 120px;
 }
 
 .subtitle{
