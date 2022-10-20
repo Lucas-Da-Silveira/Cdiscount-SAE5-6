@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #0c192c;
+    background: #0d1321;
 }
 
 .background-container {
@@ -24,22 +24,22 @@ body {
     position: relatives;
     width: 30px;
     height:30px;
-    background: #4fc3dc;
+    background: #748CAB;
     margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44,
-    0 0 50px #4fc3dc,
-    0 0 100px #4fc3dc;
+    box-shadow: 0 0 0 10px #3E5C76,
+    0 0 50px #748CAB,
+    0 0 100px #748CAB;
     animation: animateBubbles 15s linear infinite;
     animation-duration: calc(125s / var(--i));
 }
 
 .bubbles span:nth-child(even)
 {
-    background: #fe7500;
-    box-shadow: 0 0 0 10px #c0570180,
-    0 0 50px #fe7500,
-    0 0 100px #fe7500;
+    background: #F0EBD8;
+    box-shadow: 0 0 0 10px #c2bdaa,
+    0 0 50px #F0EBD8,
+    0 0 100px #F0EBD8;
 }
 
 @keyframes animateBubbles
