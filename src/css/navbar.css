@@ -49,13 +49,13 @@
     }
     
     .navbar-item:hover a{
-        color: f0ebd8;
+        color: #f0ebd8;
         transform: scale(1.1);
         transition: all 0.3s ease-in-out 0.1s;
     }
     
     .navbar-item.active a{
-        color: f0ebd8;
+        color: #f0ebd8;
     }
 }
 
