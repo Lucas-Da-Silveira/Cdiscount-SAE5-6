@@ -71,67 +71,6 @@ body, html {
     
 
 
-/* NAVBAR 
-
-nav{
-    width: 55%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: auto;
-    margin-top: 8px;
-    position: fixed;
-    
-    
-    
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(189, 182, 182, 0.5);
-    border-radius: 17px;
-   
-}
-
-#logo{
-    width: 175px;
-    vertical-align: middle;
-    transition: transform 0.7s ease-in-out;
-}
-
-#logo:hover{
-    transform: rotate(360deg);
-}
-
-.navbar-links{
-    display: flex;
-    list-style-type: none;
-    margin: 13px 0px;
-}
-
-.navbar-item a{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(36,52,68);
-    padding: 0px 8px;
-    font-size: 21px;
-    transition: 0.3s;
-}
-
-.navbar-item:hover a{
-    color: white;
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out 0.1s;
-}
-
-.navbar-item.active a{
-    color: white;
-}
-
-NAVBAR FIN*/
-
-
 
 
 
