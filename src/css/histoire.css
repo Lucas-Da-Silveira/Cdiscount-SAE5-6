@@ -49,10 +49,6 @@ body {
     }
 }
 
-.page-top-contener {
-    height: 50vh;
-}
-
 #right-contener {
     width: 500px;
 }
@@ -102,6 +98,7 @@ body {
     justify-content: space-evenly;
     box-shadow: 0px 0px 50px 1px #3E5C76;
     padding: 5px 15px 5px 15px;
+    text-align: center;
 }
 
 .contener h2 {
