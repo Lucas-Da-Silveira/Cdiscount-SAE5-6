@@ -1,0 +1,152 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0d1321;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+nav{
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 8px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    background-color: rgba(240, 235, 216, 0.5);
+    border-radius: 17px;
+}
+
+/*.navbar{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    background-color: rgba(240, 235, 216, 0.5);
+    border-radius: 17px;
+}*/
+
+#logo{
+    width: 175px;
+    vertical-align: middle;
+    transition: transform 0.7s ease-in-out;
+}
+
+#logo:hover{
+    transform: rotate(360deg);
+}
+
+.navbar-links{
+    display: flex;
+    list-style-type: none;
+    margin: 13px 0px;
+    margin-left: 100px;
+}
+
+.navbar-item a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(36,52,68);
+    padding: 0px 8px;
+    font-size: 21px;
+    transition: 0.3s;
+}
+
+.navbar-item:hover a{
+    color: #f0ebd8;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.navbar-item.active a{
+    color: #f0ebd8;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.info-text1{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 105px;
+}
+
+.info-text2{
+    width: 70%;
+    padding-left: 230px;
+    padding-top: 110px;
+}
+
+.title{
+    color: white;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.subtitle{
+    color: #f0ebd8;
+    font-size: 28px;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 5px;
+    border-bottom: solid #f0ebd8;
+}
+
+.text{
+    width: 80%;
+    color: white;
+    font-size: 18px;
+}
+
+.clr-orange{
+    color: rgb(227,54,5);
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    font-size: 18px;
+    margin-top: 65px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    background-color: white;
+}
+
+footer p{
+    color: rgb(36,52,68);
+    padding-left: 40px;
+    font-size: 18px;
+}
