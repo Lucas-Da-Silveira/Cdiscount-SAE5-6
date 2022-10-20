@@ -14,8 +14,8 @@ body {
 }
 
 .page-top-title {
-    height: 50vh;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .main-title {
