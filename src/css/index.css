@@ -127,6 +127,43 @@ html {
     #descriptif div p {
         font-size: 20px;
     }
+    
+        #descriptif1 {
+        width: 800px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+
+    #descriptif1 div {
+        padding: 15px 10px 15px 10px;
+        margin: auto;
+    }
+
+    #descriptif1 div p {
+        font-size: 20px;
+    }
+
+    #descriptif2 {
+        width: 800px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+
+    #descriptif2 div {
+        padding: 15px 10px 15px 10px;
+        margin: auto;
+    }
+
+    #descriptif2 div p {
+        font-size: 20px;
+    }
+    
 
     .text1 {
         margin-top: 20px;
