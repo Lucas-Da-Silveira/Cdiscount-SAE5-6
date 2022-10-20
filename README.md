@@ -25,9 +25,12 @@ Etudiant 4 : Mathys Nourry (email : mathys.nourry@edu.univ-fcomte.fr)
 
 
 
-##Répartition des tâches:
+##Répartition des tâches
 
 Lucas Da Silveira : Création du diagramme de GANTT, du zoning général, du questionnaire 2, de la page structure, de la partie structure dans le rapport économique , remplissage du readme et aide à la mise en page du rapport.
+
 Tom Siouan : Création du questionnaire 1, des wireframes, de la navbar, de la page d'acceuil, de la page histoire et de la partie histoire du rapport économique.
+
 Johan Lançon : Recherche des informations sur l'entreprise, mise en page du rapport, création de la page services, de la partie service du rapport.
-Mathys Nourry : Création de l'accueil, de la navbar, de la page économie, de la partie économie dans le rapport économie, mise en page du rapport économique .
+
+Mathys Nourry : Création de l'accueil, de la navbar, de la page économie, de la partie économie dans le rapport économie, mise en page du rapport économique.
