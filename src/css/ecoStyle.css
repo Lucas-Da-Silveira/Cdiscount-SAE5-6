@@ -101,19 +101,3 @@ body{
     color: rgb(227,54,5);
     font-weight: bold;
 }
-
-footer{
-    display: flex;
-    font-size: 18px;
-    margin-top: 65px;
-    justify-content: flex-start;
-    align-items: center;
-    height: 70px;
-    background-color: white;
-}
-
-footer p{
-    color: rgb(36,52,68);
-    padding-left: 40px;
-    font-size: 18px;
-}
